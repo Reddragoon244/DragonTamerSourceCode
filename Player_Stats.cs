@@ -6,15 +6,15 @@ public class Player_Stats : MonoBehaviour {
 
     public GameObject player;
 
-    public int healthMax;
-    public int health;
-    public int manaMax;
-    public int mana;
-    public int exp;
-    public int expNext;
-    public int level;
-    public int attackdam;
-    public status playerCondition = status.FINE;
+    public int healthMax; //max health of player
+    public int health; //current health of player
+    public int manaMax; //max mana of player
+    public int mana; //current mana of player
+    public int exp; //current experience of player
+    public int expNext; //experience needed for next level
+    public int level; //current level
+    public int attackdam; //current attack power
+    public status playerCondition = status.FINE; //current condition
 
     public Button startgame;
     public string playername = null;
